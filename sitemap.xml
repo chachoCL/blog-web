@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/</loc>
+    <loc>https://joseluna.dev/</loc>
     <lastmod>2026-02-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/</loc>
+    <loc>https://joseluna.dev/posts/</loc>
     <lastmod>2026-02-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/posts/primera-entrada-blog-real/</loc>
+    <loc>https://joseluna.dev/posts/primera-entrada-blog-real/</loc>
     <lastmod>2026-02-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/</loc>
+    <loc>https://joseluna.dev/categories/</loc>
   </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>https://joseluna.dev/tags/</loc>
   </url>
 </urlset>
