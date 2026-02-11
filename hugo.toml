@@ -12,6 +12,7 @@ enableEmoji = true
   toc = false
   goToTop = true
   dateFormat = "2 de enero de 2006" # Formato de fecha en español
+  rssFeedDescription = "full" # Envía el post completo al RSS
 
 [params.author]
   name = "Jose Luna"
@@ -29,10 +30,10 @@ enableEmoji = true
     endLevel = 4
     ordered = false
 
-[[menu.main]]
-  name = 'Inicio'
-  url = '/'
-  weight = 10
+#[[menu.main]]
+#  name = 'Inicio'
+#  url = '/'
+#  weight = 10
 
 [[menu.main]]
   name = 'Sobre mí'
@@ -45,9 +46,21 @@ enableEmoji = true
 #   weight = 20
 
 [[params.socialIcons]]
+  name = "instagram"
+  url = "https://www.instagram.com/chachocll/"
+
+[[params.socialIcons]]
   name = "github"
   url = "https://github.com/chachoCL"
 
 [[params.socialIcons]]
   name = "linkedin"
   url = "https://www.linkedin.com/in/jose-luna-b56239143/"
+
+[[params.socialIcons]]
+  name = "rss"
+  url = "/index.xml"
+
+[services]
+  [services.rss]
+    limit = 20
