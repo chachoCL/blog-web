@@ -2,36 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>José Luna</title>
-    <link>https://joseluna.dev/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on José Luna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-mx</language>
-    <lastBuildDate>Wed, 11 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://joseluna.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Primera entrada blog real😊👌</title>
-      <link>https://joseluna.dev/posts/primera-entrada-blog-real/</link>
+      <link>http://localhost:1313/posts/primera-entrada-blog-real/</link>
       <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://joseluna.dev/posts/primera-entrada-blog-real/</guid>
+      <guid>http://localhost:1313/posts/primera-entrada-blog-real/</guid>
       
       <description>&lt;p&gt;Buenas esta es la primera pagina de mi blog
-!&lt;img src=&#34;https://joseluna.dev/images/Pasted%20image%2020260211062347.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
-&lt;p&gt;esta pagina esta desplegada en hostinger, y vere alternativas.&lt;/p&gt;</description>
+!&lt;img src=&#34;http://localhost:1313/images/Pasted%20image%2020260211062347.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
+&lt;p&gt;esta pagina esta desplegada en hostinger, y vere alternativas.&lt;/p&gt;
+</description>
       
     </item>
     
     <item>
       <title>Sobre mí</title>
-      <link>https://joseluna.dev/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://joseluna.dev/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       
       <description>&lt;p&gt;¡Hola! Soy José Luna, desarrollador y entusiasta de la infraestructura que disfruta rompiendo cosas en casa para entender cómo funcionan y luego dejarlas mejor de como estaban.&lt;/p&gt;
 &lt;p&gt;Este es mi rincón en internet donde documentaré mis experimentos con &lt;strong&gt;Docker&lt;/strong&gt;, &lt;strong&gt;DevOps&lt;/strong&gt; y mi &lt;strong&gt;homelab&lt;/strong&gt;: desde pequeños servicios auto-hospedados hasta máquinas que no deberían estar corriendo en tu pieza.&lt;/p&gt;
-&lt;p&gt;Me gustan la &lt;strong&gt;automatización&lt;/strong&gt;, el &lt;strong&gt;auto-hospedaje&lt;/strong&gt; y tener el control de mi stack, ya sea en contenedores, en Proxmox o en la nube. Si algo se puede scriptar, probablemente termine en mi git.&lt;/p&gt;</description>
+&lt;p&gt;Me gustan la &lt;strong&gt;automatización&lt;/strong&gt;, el &lt;strong&gt;auto-hospedaje&lt;/strong&gt; y tener el control de mi stack, ya sea en contenedores, en Proxmox o en la nube. Si algo se puede scriptar, probablemente termine en mi git.&lt;/p&gt;
+&lt;p&gt;Cuando no estoy peleando con docker, es porque estoy en la u.&lt;/p&gt;
+</description>
       
     </item>
     
   </channel>
-</rss>
+<
