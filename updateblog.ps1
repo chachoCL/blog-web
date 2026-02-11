@@ -64,7 +64,7 @@ if (-not (Test-Path $destinationPath)) {
 
 # Use Robocopy to mirror the directories
 $robocopyOptions = @('/MIR', '/Z', '/W:5', '/R:3')
-$robocopyResult = robocopy $sourcePath $destinationPath @robocopyOptions
+robocopy $sourcePath $destinationPath @robocopyOptions
 
 if ($LASTEXITCODE -ge 8) {
     Write-Error "Robocopy failed with exit code $LASTEXITCODE"
@@ -119,12 +119,12 @@ else {
 }
 
 # Step 7: Push all changes to the main branch
-Write-Host "Deploying to GitHub Master..."
+Write-Host "Deploying to GitHub Main..."
 try {
-    git push origin master
+    git push origin main
 }
 catch {
-    Write-Error "Failed to push to Master branch."
+    Write-Error "Failed to push to Main branch."
     exit 1
 }
 
