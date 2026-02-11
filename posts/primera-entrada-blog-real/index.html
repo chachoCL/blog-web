@@ -120,6 +120,22 @@ esta pagina esta desplegada en hostinger, y vere alternativas.">
     
     
     
+      <style>
+    .date-mobile {
+        display: none;
+    }
+
+    @media (max-width: 768px) {
+        .date-desktop {
+            display: none;
+        }
+
+        .date-mobile {
+            display: inline;
+        }
+    }
+</style>
+    
 </head>
 <body data-theme = "dark" class="notransition">
 
@@ -172,7 +188,10 @@ stroke-linejoin="round" class="feather feather-home">
                 
                 
                 <div class="post-meta">
-                    <time datetime="2026-02-11T00:00:00&#43;00:00" itemprop="datePublished"> 11 de enero de 2026 </time>
+                    <time datetime="2026-02-11T00:00:00&#43;00:00" itemprop="datePublished">
+                        <span class="date-desktop">11 de enero de 2026</span>
+                        <span class="date-mobile">11/02/2026</span>
+                    </time>
                 </div>
                 
             </header>
