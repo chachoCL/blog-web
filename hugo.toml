@@ -1,3 +1,35 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://joseluna.dev/'
+languageCode = 'es-mx'
+title = 'Mi blog'
+theme = "hugo-blog-awesome"
+
+[params]
+  sitename = "Mi blog"
+  defaultColor = "dark" # dark, light, auto
+  description = "Blog personal de Jose Luna"
+  mainSections = ['posts']
+  toc = true
+  goToTop = true
+
+[params.author]
+  name = "Jose Luna"
+  intro = "Bienvenido a mi blog"
+  description = "Aqui compartire mis aventuras de docker y mas..."
+
+[[menu.main]]
+  name = 'Inicio'
+  url = '/'
+  weight = 10
+
+[[menu.main]]
+  name = 'Posts'
+  url = '/posts/'
+  weight = 20
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/chachoCL"
+
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/jose-luna-b56239143/"
