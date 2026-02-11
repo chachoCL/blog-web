@@ -2,7 +2,7 @@
     "name": "Mi blog",
     "short_name": "Mi blog",
     "start_url": "https://joseluna.dev/",
-    "theme_color": "#434648",
+    "theme_color": "#3498db",
     "background_color": "#131418",
     "display": "standalone",
     "icons": [

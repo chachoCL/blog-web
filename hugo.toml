@@ -2,29 +2,42 @@ baseURL = 'https://joseluna.dev/'
 languageCode = 'es-mx'
 title = 'Mi blog'
 theme = "hugo-blog-awesome"
+enableEmoji = true
 
 [params]
   sitename = "Mi blog"
   defaultColor = "dark" # dark, light, auto
   description = "Blog personal de Jose Luna"
   mainSections = ['posts']
-  toc = true
+  toc = false
   goToTop = true
+  dateFormat = "2 de enero de 2006" # Formato de fecha en español
 
 [params.author]
   name = "Jose Luna"
   intro = "Bienvenido a mi blog"
   description = "Aqui compartire mis aventuras de docker y mas..."
 
-[[menu.main]]
-  name = 'Inicio'
-  url = '/'
-  weight = 10
+[params.webmanifest]
+  theme_color = "#3498db"
+  background_color = "#131418"
+  display = "standalone"
 
-[[menu.main]]
-  name = 'Posts'
-  url = '/posts/'
-  weight = 20
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
+
+#[[menu.main]]
+#  name = 'Inicio'
+#  url = '/'
+#  weight = 10
+
+# [[menu.main]]
+#   name = 'Posts'
+#   url = '/posts/'
+#   weight = 20
 
 [[params.socialIcons]]
   name = "github"
