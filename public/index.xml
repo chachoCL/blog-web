@@ -9,6 +9,13 @@
     <lastBuildDate>Wed, 11 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title></title>
+      <link>https://example.org/posts/prueba-pagina-2-alo/</link>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/prueba-pagina-2-alo/</guid>
+      <description>&lt;p&gt;Prueba buenas&#xA;!&lt;img src=&#34;https://example.org/images/Pasted%20image%2020260211055149.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Primer Blog</title>
       <link>https://example.org/posts/pruebablog/</link>
       <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
