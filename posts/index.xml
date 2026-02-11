@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Mi blog</title>
+    <title>Posts on José Luna</title>
     <link>https://joseluna.dev/posts/</link>
-    <description>Recent content in Posts on Mi blog</description>
+    <description>Recent content in Posts on José Luna</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-mx</language>
     <lastBuildDate>Wed, 11 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://joseluna.dev/posts/index.xml" rel="self" type="application/rss+xml" />
