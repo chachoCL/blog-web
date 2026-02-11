@@ -1,13 +1,13 @@
 baseURL = 'https://joseluna.dev/'
 languageCode = 'es-mx'
-title = 'Mi blog'
+title = 'José Luna' # Cambiado a solo el nombre para que no se repita
 theme = "hugo-blog-awesome"
 enableEmoji = true
 
 [params]
-  sitename = "Mi blog"
+  sitename = "José Luna | Blog de DevOps y homelab" # Aquí va el título largo
   defaultColor = "dark" # dark, light, auto
-  description = "Blog personal de Jose Luna"
+  description = "Blog personal de Jose Luna sobre DevOps y homelab"
   mainSections = ['posts']
   toc = false
   goToTop = true
@@ -29,10 +29,15 @@ enableEmoji = true
     endLevel = 4
     ordered = false
 
-#[[menu.main]]
-#  name = 'Inicio'
-#  url = '/'
-#  weight = 10
+[[menu.main]]
+  name = 'Inicio'
+  url = '/'
+  weight = 10
+
+[[menu.main]]
+  name = 'Sobre mí'
+  url = '/about/'
+  weight = 15
 
 # [[menu.main]]
 #   name = 'Posts'
