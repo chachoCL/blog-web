@@ -8,23 +8,9 @@
     <language>es-mx</language>
     <lastBuildDate>Wed, 11 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Primera entrada blog real😊👌</title>
-      <link>http://localhost:1313/posts/primera-entrada-blog-real/</link>
-      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/primera-entrada-blog-real/</guid>
-      
-      <description>&lt;p&gt;Buenas esta es la primera pagina de mi blog
-!&lt;img src=&#34;http://localhost:1313/images/Pasted%20image%2020260211062347.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
-&lt;p&gt;esta pagina esta desplegada en hostinger, y vere alternativas.&lt;/p&gt;
-</description>
-      
-    </item>
-    
-    <item>
       <title>Sobre mí</title>
       <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/about/</guid>
       
@@ -36,5 +22,19 @@
       
     </item>
     
+    <item>
+      <title>Primera entrada blog real😊👌</title>
+      <link>http://localhost:1313/posts/primera-entrada-blog-real/</link>
+      <pubDate>Tue, 10 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/primera-entrada-blog-real/</guid>
+      
+      <description>&lt;p&gt;Buenas esta es la primera pagina de mi blog
+!&lt;img src=&#34;http://localhost:1313/images/Pasted%20image%2020260211062347.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
+&lt;p&gt;esta pagina esta desplegada en hostinger, y vere alternativas.&lt;/p&gt;
+</description>
+      
+    </item>
+    
   </channel>
-<
+</rss>
