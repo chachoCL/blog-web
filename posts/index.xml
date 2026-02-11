@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Mi blog</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://joseluna.dev/posts/</link>
     <description>Recent content in Posts on Mi blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-mx</language>
-    <lastBuildDate>Wed, 11 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://joseluna.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Primera entrada blog real</title>
-      <link>http://localhost:1313/posts/primera-entrada-blog-real/</link>
+      <title>Primera entrada blog real😊👌</title>
+      <link>https://joseluna.dev/posts/primera-entrada-blog-real/</link>
       <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/primera-entrada-blog-real/</guid>
+      <guid>https://joseluna.dev/posts/primera-entrada-blog-real/</guid>
       
       <description>&lt;p&gt;Buenas esta es la primera pagina de mi blog
-!&lt;img src=&#34;http://localhost:1313/images/Pasted%20image%2020260211062347.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
+!&lt;img src=&#34;https://joseluna.dev/images/Pasted%20image%2020260211062347.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
 &lt;p&gt;esta pagina esta desplegada en hostinger, y vere alternativas.&lt;/p&gt;</description>
       
     </item>
