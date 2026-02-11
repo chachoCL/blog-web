@@ -1,6 +1,8 @@
 ---
 title: "Sobre mí"
+date: 2026-02-11
 layout: "about"
+nodate: true
 ---
 
 ¡Hola! Soy José Luna, desarrollador y entusiasta de la infraestructura que disfruta rompiendo cosas en casa para entender cómo funcionan y luego dejarlas mejor de como estaban.

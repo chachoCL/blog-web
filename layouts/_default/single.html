@@ -4,15 +4,24 @@
         <article>
             <header class="header">
                 <h1 class="header-title">{{ .Title }}</h1>
-                {{ $configDateFormat := .Site.Params.dateFormat | default ":date_medium" }}
+                {{ $configDateFormat := .Site.Params.dateFormat | default ":date_long" }}
+
+                {{/* Decidimos si mostrar la fecha desde el HTML, ignorando el .md */}}
+                {{ $showDate := true }}
+                {{ if or (eq .Section "about") (eq .Layout "about") (eq .Type "page") (.Params.nodate) }}
+                {{ $showDate = false }}
+                {{ end }}
+
+                {{ if $showDate }}
                 {{ with .Date }}
-                {{ $ISO_time := dateFormat "2006-01-02T15:04:05-07:00" . }}
+                {{ $ISO_time := .Format "2006-01-02T15:04:05-07:00" }}
                 <div class="post-meta">
                     <time datetime="{{ $ISO_time }}" itemprop="datePublished">
                         <span class="date-desktop">{{ . | time.Format $configDateFormat }}</span>
                         <span class="date-mobile">{{ . | time.Format "02/01/2006" }}</span>
                     </time>
                 </div>
+                {{ end }}
                 {{ end }}
             </header>
             {{ partial "toc.html" .}}

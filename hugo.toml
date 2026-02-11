@@ -3,6 +3,7 @@ languageCode = 'es-mx'
 title = 'José Luna' # Cambiado a solo el nombre para que no se repita
 theme = "hugo-blog-awesome"
 enableEmoji = true
+buildFuture = false # Permite que se vean posts con fecha futura sin editar el .md
 
 [params]
   sitename = "José Luna | Blog de DevOps y homelab" # Aquí va el título largo
@@ -11,7 +12,7 @@ enableEmoji = true
   mainSections = ['posts']
   toc = false
   goToTop = true
-  dateFormat = "2 de enero de 2006" # Formato de fecha en español
+  dateFormat = ":date_long" # Formato automático localizado (e.g., 11 de febrero de 2026)
   rssFeedDescription = "full" # Envía el post completo al RSS
 
 [params.author]
